@@ -2,9 +2,9 @@ class Rover
 	attr_accessor :x,:y,:direction
 
 	def initialize (x,y,direction)
-		@x=x
-		@y=y
-		@direction=direction
+		@x = x
+		@y = y
+		@direction = direction
 
 	end
 
@@ -66,7 +66,8 @@ class Rover
 
 end
 
-rover1 = Rover.new(0,0,"N")
+rover1 = Rover.new(3,3,"E")
+
 
 
 puts "Would you like to move L, R, or M?"
@@ -76,4 +77,66 @@ rover1.read_instruction (user_input.upcase)
 
 puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
 
-puts "Rover's x poistion is #{rover1.x} y is #{rover1.y}"
+puts "Would you like to move L, R, or M?"
+user_input = gets.chomp
+
+rover1.read_instruction (user_input.upcase)
+
+puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
+
+puts "Would you like to move L, R, or M?"
+user_input = gets.chomp
+
+rover1.read_instruction (user_input.upcase)
+
+puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
+
+puts "Would you like to move L, R, or M?"
+user_input = gets.chomp
+
+rover1.read_instruction (user_input.upcase)
+
+puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
+
+puts "Would you like to move L, R, or M?"
+user_input = gets.chomp
+
+rover1.read_instruction (user_input.upcase)
+
+puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
+
+puts "Would you like to move L, R, or M?"
+user_input = gets.chomp
+
+rover1.read_instruction (user_input.upcase)
+
+puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
+
+puts "Would you like to move L, R, or M?"
+user_input = gets.chomp
+
+rover1.read_instruction (user_input.upcase)
+
+puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
+
+puts "Would you like to move L, R, or M?"
+user_input = gets.chomp
+
+rover1.read_instruction (user_input.upcase)
+
+puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
+
+puts "Would you like to move L, R, or M?"
+user_input = gets.chomp
+
+rover1.read_instruction (user_input.upcase)
+
+puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
+
+puts "Would you like to move L, R, or M?"
+user_input = gets.chomp
+
+rover1.read_instruction (user_input.upcase)
+
+puts "Rover's current position is #{rover1.x}, #{rover1.y}, facing #{rover1.direction}"
+
